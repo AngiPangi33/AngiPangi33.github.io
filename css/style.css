@@ -15,7 +15,7 @@ h1{
 }
 
 .container{
-    width:80%;
+    width:65%;
     margin:auto;
     overflow:hidden;
 }
@@ -27,7 +27,6 @@ h1{
 
 #navbar{
     background-color: purple;
-    color:#fff;
 }
 
 #navbar ul{
@@ -68,13 +67,19 @@ h1{
     box-sizing: border-box;
 }
 
-#sidebar{
-    float: right;
+#sidebar-1{
+    float: left;
     width: 30%;
     background:rgb(165, 129, 165);
     color:black;
     padding: 10px;
     box-sizing: border-box;
+}
+
+#sidebar-2{
+    float: right;
+    width: auto;
+    background-image: url('../img/Disney.jpg');
 }
 
 #main-footer{
