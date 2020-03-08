@@ -8043,7 +8043,7 @@ textarea.form-control {
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: .2em;
-      color: #ccc;
+      color: rgb(235, 149, 216);
       border: 2px solid #ccc;
       border-radius: 0 !important; }
       .ftco-tab-nav li a.active {
