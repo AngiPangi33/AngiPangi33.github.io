@@ -7269,8 +7269,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Montserrat", Arial, sans-serif;
-  background: rgb(207, 200, 200);
-  font-size: 14px;
+  background: rgb(175, 168, 168);
+  font-size: 18px;
   line-height: 1.8;
   font-weight: 300;
   color: rgb(14, 13, 13); }
@@ -8235,7 +8235,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
