@@ -7701,12 +7701,6 @@ h1, h2, h3, h4, h5,
   .partner .partner-entry:hover {
     opacity: 1; }
 
-
-
-
-
-
-
 .form-control {
   height: 58px !important;
   background: #fff !important;
@@ -7787,9 +7781,6 @@ textarea.form-control {
 .ftco-section .ftco-primary-title {
   margin-top: 0;
   margin-bottom: 30px; }
-
-.about-author .desc h3 {
-  font-size: 24px; }
 
 .ftco-section {
   padding: 7em 0;
@@ -7880,12 +7871,6 @@ textarea.form-control {
     .ftco-footer-social li a:hover {
       color: #fff; }
 
-#map {
-  height: 500px;
-  width: 100%; }
-  @media (max-width: 991.98px) {
-    #map {
-      height: 300px; } }
 
 @-webkit-keyframes pulse {
   0% {
@@ -7969,60 +7954,6 @@ textarea.form-control {
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0; }
 
-#section-counter {
-  position: relative;
-  z-index: 0; }
-  #section-counter .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #fff;
-    opacity: .4; }
-
-.ftco-counter {
-  padding: 10em 0; }
-  .ftco-counter .icon {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-    background: #fff;
-    position: relative;
-    border: 1px solid #f0f0f0;
-    margin-bottom: 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
-    .ftco-counter .icon span {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      color: #fa5bdd !important; }
-  .ftco-counter .text strong.number {
-    font-weight: 400;
-    font-size: 30px;
-    color: #fa5bdd; }
-  .ftco-counter .text span {
-    font-weight: 400;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.7); }
-  @media (max-width: 767.98px) {
-    .ftco-counter .counter-wrap {
-      margin-bottom: 40px; } }
-  .ftco-counter .ftco-number {
-    display: block;
-    color: #fa5bdd; }
-  .ftco-counter .ftco-label {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: .1em; }
-
 .block-20 {
   overflow: hidden;
   background-size: cover;
@@ -8083,53 +8014,6 @@ textarea.form-control {
       background: #fed7f7;
       color: #fa5bdd;
       border: 1px solid transparent; }
-
-.contact-section .contact-info p span {
-  color: #000; }
-
-.contact-form .form-group {
-  position: relative; }
-
-.contact-form .form-control {
-  border: transparent !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
-  height: 58px !important;
-  padding-left: 0;
-  padding-right: 0;
-  background: transparent !important;
-  color: rgba(0, 0, 0, 0.5) !important;
-  font-size: 13px;
-  border-radius: 0px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-  .contact-form .form-control::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: rgba(0, 0, 0, 0.5); }
-  .contact-form .form-control::-moz-placeholder {
-    /* Firefox 19+ */
-    color: rgba(0, 0, 0, 0.5); }
-  .contact-form .form-control:-ms-input-placeholder {
-    /* IE 10+ */
-    color: rgba(0, 0, 0, 0.5); }
-  .contact-form .form-control:-moz-placeholder {
-    /* Firefox 18- */
-    color: rgba(0, 0, 0, 0.5); }
-  .contact-form .form-control:focus, .contact-form .form-control:active {
-    border-color: #000 !important; }
-
-.contact-form textarea.form-control {
-  height: inherit !important; }
-
-.block-9 .form-control {
-  outline: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  font-size: 15px; }
-
-.block-21 .blog-img {
-  display: block;
-  height: 80px;
-  width: 80px; }
 
 .block-21 .text {
   width: calc(100% - 100px); }
@@ -8194,55 +8078,6 @@ textarea.form-control {
   font-size: 11px; }
   .tagcloud a:hover {
     border: 1px solid #000; }
-
-.comment-form-wrap {
-  clear: both; }
-
-.comment-list {
-  padding: 0;
-  margin: 0; }
-  .comment-list .children {
-    padding: 50px 0 0 40px;
-    margin: 0;
-    float: left;
-    width: 100%; }
-  .comment-list li {
-    padding: 0;
-    margin: 0 0 30px 0;
-    float: left;
-    width: 100%;
-    clear: both;
-    list-style: none; }
-    .comment-list li .vcard {
-      width: 80px;
-      float: left; }
-      .comment-list li .vcard img {
-        width: 50px;
-        border-radius: 50%; }
-    .comment-list li .comment-body {
-      float: right;
-      width: calc(100% - 80px); }
-      .comment-list li .comment-body h3 {
-        font-size: 20px; }
-      .comment-list li .comment-body .meta {
-        text-transform: uppercase;
-        font-size: 13px;
-        letter-spacing: .1em;
-        color: #ccc; }
-      .comment-list li .comment-body .reply {
-        padding: 5px 10px;
-        background: #e6e6e6;
-        color: #000;
-        text-transform: uppercase;
-        font-size: 11px;
-        letter-spacing: .1em;
-        font-weight: 400;
-        border-radius: 4px; }
-        .comment-list li .comment-body .reply:hover {
-          color: #fff;
-          background: black; }
-
-
 .sidebar-wrap {
   padding: 20px;
   border: 1px solid #e6e6e6;
