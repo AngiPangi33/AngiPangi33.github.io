@@ -183,6 +183,13 @@ svg:not(:root) {
 table {
   border-collapse: collapse; }
 
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: .5rem;
+  background-color: rgba(128, 208, 240, 0.85);
+}
+
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
