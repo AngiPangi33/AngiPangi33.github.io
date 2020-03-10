@@ -7276,7 +7276,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Montserrat", Arial, sans-serif;
-  background: rgb(175, 168, 168);
+  background: rgb(255, 254, 255);
   font-size: 18px;
   line-height: 1.8;
   font-weight: 300;
@@ -7288,7 +7288,7 @@ body {
     width: 100%; }
 
 span {
-  color: #bfbfbf; }
+  color: #8f8888; }
 
 a {
   -webkit-transition: .3s all ease;
