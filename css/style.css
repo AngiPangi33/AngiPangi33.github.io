@@ -189,6 +189,12 @@ table {
   margin: .5rem;
   background-color: rgb(167, 204, 247);
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 caption {
   padding-top: 0.75rem;
